@@ -1,0 +1,373 @@
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>EVENTS CALENDER</title>
+  <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="calendar.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Lavishly+Yours&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital@1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/ade484b3fc.js" crossorigin="anonymous"></script>
+</head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Work Sans';
+}
+
+
+
+    div {
+      margin: 0;
+    }
+
+    button {
+      background-color: #4eb6ae;
+      border: none;
+      color: #ffff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hotbar">
+    <a href="index.html">
+      <section class="hotbar-brand">Turning Tide</section>
+    </a>
+    <a class="hotbar-item" style="display:" href="index.html#about-us">ABOUT US</a>
+    <a class="hotbar-item" href="index.html#our-impact">OUR IMPACT</a>
+    <a class="hotbar-item" href="index.html#our-work-id">OUR WORK</a>
+    <a class="hotbar-item" href="index.html#subscribe-id">SUBSCRIBE</a>
+    <a class="hotbar-item" href="index.html#contact-us-id">CONTACT</a>
+    <a class="hotbar-item" href="#">PAGES <button type="button" class="pages-btn" onclick="dropdown()" name="button" style="background-color: #141E27; border:none;color:white;"><i class="fa-solid fa-caret-down"></i></button>
+      </button></a>
+    <button class="donate" type="button" name="button" style="margin-left:35px;">
+      <p class="donate">DONATE</p>
+    </button>
+    <div class="pages-list hide">
+      <a href="calender.html" class="page-list-item"><i class="fa-solid fa-calendar-days"></i>CALENDAR</a>
+      <a href="events.html" class="page-list-item"><i class="fa-solid fa-water"></i>EVENTS</a>
+      <a href="#" class="page-list-item"><i class="fa-solid fa-sitemap"></i>TEAM</a>
+      <a href="board.html" class="page-list-item"><i class="fa-solid fa-sitemap"></i>BOARD OF DIRECTORS</a>
+      <a href="#" class="page-list-item"><i class="fa-solid fa-sitemap"></i>BLOG</a>
+      <a href="#" class="page-list-item"><i class="fa-solid fa-sitemap"></i>404</a>
+    </div>
+  </div>
+  <div class="events-cal">
+    <h1>Events Calendar</h1>
+  </div>
+  <div class="cal-main">
+    <div class="top-cal">
+      <div class="month">
+        <h2>April, 2022</h2>
+      </div>
+      <div class="cal-btn">
+        <button class="today" type="button" name="button">
+          <p> today</p>
+        </button>
+        <div class="prev-nxt">
+          <button class="tog-btn prev" type="button" name="button"><i class="fa-solid fa-angle-left fa-2x"></i></button>
+          <button class="tog-btn nxt" type="button" name="button"><i class="fa-solid fa-angle-right fa-2x"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-cal">
+   <table class="calendar">
+    <thead>
+      <th>Sun</th>
+      <th>Mon</th>
+      <th>Tue</th>
+      <th>Wed</th>
+      <th>Thu</th>
+      <th>Fri</th>
+      <th>Sat</th>
+    </thead>
+    <tbody>
+      <tr>
+      <td>
+        <div class="d28 diff-mon" >
+          <p style="  color:black;">28</p>
+        </div>
+      </td>
+      <td>
+        <div class="d29 diff-mon" >
+          <p>29</p>
+        </div>
+      </td>
+      <td>
+        <div class="d30 diff-mon" >
+          <p>30</p>
+        </div>
+      </td>
+      <td>
+        <div class="d31 diff-mon" >
+          <p>31</p>
+        </div>
+      </td>
+      <td>
+        <div class="d1" >
+          <p>1</p>
+        </div>
+      </td>
+      <td>
+        <div class="d2" >
+          <p>2</p>
+        </div>
+      </td>
+      <td>
+        <div class="d3" >
+          <p>3</p>
+          <a href="">All day event</button>
+        </div>
+      </td>
+      </tr>
+      <tr>
+        <td>
+      <div class="d4" >
+        <p>4</p>
+      </div>
+    </td>
+    <td>
+      <div class="d5" >
+        <p>5</p>
+      </div>
+    </td>
+    <td>
+      <div class="d6" >
+        <p>6</p>
+      </div>
+    </td>
+    <td>
+      <div class="d7" >
+        <p>7</p>
+      </div>
+    </td>
+    <td>
+      <div class="d8" >
+        <p>8</p>
+      </div>
+    </td>
+    <td>
+      <div class="d9" >
+        <p>9</p>
+
+      </div>
+    </td>
+    <td>
+      <div class="d10" >
+        <p>10</p>
+      </div>
+    </td>
+    </tr>
+    <tr>
+      <td>
+    <div class="d11" >
+      <p >11</p>
+    </div>
+  </td>
+  <td>
+    <div class="d12" >
+      <p>12</p>
+        <a href="" style="padding-right:503px; position:absolute;" >Long event</a>
+
+    </div>
+  </td>
+  <td>
+    <div class="d13" >
+      <p>13</p>
+    </div>
+  </td>
+  <td>
+    <div class="d14" >
+      <p>14</p>
+    </div>
+  </td>
+  <td>
+    <div class="d15" >
+      <p>15</p>
+    </div>
+  </td>
+  <td>
+    <div class="d16" >
+      <p>16</p>
+    </div>
+  </td>
+  <td>
+    <div class="d17" >
+      <p>17</p>
+        <a href="#"><b style="padding-right:10px;">7:30am</b></b>Meeting</a>
+
+    </div>
+  </td>
+  </tr>
+  <tr>
+    <td>
+  <div class="d18" >
+    <p>18</p>
+    <a href="#"><b style="margin-right:10px;">10:05am</b>Conff.</a>
+    <a href="#" style="margin-top:5px;"><b style="margin-right:10px;">12:00pm</b>camp</a>
+    <button type="button" name="button" onclick="more-event()">+4 more</button>
+  </div>
+</td>
+<td>
+  <div class="d19" >
+    <p>19</p>
+  </div>
+</td>
+<td>
+  <div class="d20" >
+    <p>20</p>
+  </div>
+</td>
+<td>
+  <div class="d21" >
+    <p>21</p>
+  </div>
+</td>
+<td>
+  <div class="d22" >
+    <p>22</p>
+  </div>
+</td>
+<td>
+  <div class="d23" >
+    <p>23</p>
+  </div>
+</td>
+<td>
+  <div class="d24" >
+    <p>24</p>
+  </div>
+</td>
+</tr>
+<tr>
+  <td>
+    <div class="d25" >
+      <p>31</p>
+    </div>
+  </td>
+  <td>
+    <div class="d26" >
+      <p>1</p>
+    </div>
+  </td>
+  <td>
+    <div class="d27" >
+      <p>2</p>
+    </div>
+  </td>
+<td>
+  <div class="d28" >
+    <p style="  color:black;">28</p>
+  </div>
+</td>
+<td>
+  <div class="d29" >
+    <p>29</p>
+  </div>
+</td>
+<td>
+  <div class="d30" >
+    <p>30</p>
+    <a href="#google.com">google</a>
+  </div>
+</td>
+<td>
+  <div class="d1 diff-mon" >
+    <p>1</p>
+  </div>
+</td>
+</tr>
+    </tbody>
+   </table>
+    </div>
+  </div>
+
+  <!-- subscribe -->
+  <div id="subscribe-id" class="subscribe" style="text-align:center">
+
+    <h1 class="subscribe-h1">Subscribe to our Newsletter</h1>
+    <h2 style="font-size:25px;">Stay in the loop! Sign up and receive the latest updates on our work.</h2>
+    <div class="input-div">
+      <input type="email" name="" placeholder="Enter your email" value="">
+      <button type="button" class="subscribe-text" onclick="subscribed()" name="button">
+        <p style="font-family: 'Work Sans'; color:#ffff; font-size:16px;">SUBSCRIBE</p>
+      </button>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+<footer>
+  <div class="footer-main">
+<div class="foot-details">
+  <p>The Turning Tide, a non-profit organization, is developing and scaling technologies to rid the world’s oceans of plastic. Our aim is to put ourselves out of business once the oceans are clean.</p>
+</div>
+<div class="foot-address">
+ <p>Turning Tide, international</p>
+ <p>PO box 73292,Phagwara, PGW 144411</p>
+<p>Phone +91 6942069420</p>
+ <p>Contact Us</p>
+</div>
+
+<div class="foot-Locations">
+    <a href="#" class="midwest"> <i class="fa-solid fa-tree"></i> Midwest</a>
+  <a href="#"><i class="fa-solid fa-building-ngo"></i>Greater Los Angeles</a>
+  <a href="#"><i class="fa-solid fa-map-location-dot"></i>San Jose / Bay Area</a>
+  <a href="#"><i class="fa-solid fa-umbrella-beach"></i>Tarkarli Maharashtra</a>
+
+  <a href="#"><i class="fa-solid fa-umbrella-beach"></i>Mandrem North Goa</a>
+</div>
+
+<div class="foot-connect">
+  <div class="icons" >
+<a  href="#https://www.linkedin.com/in/saurabhkumarrai/"  style="left:100px;"><i  style="right:200px;" class="fa-brands fa-linkedin-in"></i></a>
+<a href="#https://www.instagram.com/unknown_saurabh/"><i class="fa-brands fa-instagram"></i></a>
+<a href="https://t.me/Unknown_saurabh"><i class="fa-brands fa-telegram"></i></a>
+<a href="#https://github.com/srai86825"><i class="fa-brands fa-github"></i></a>
+  </div>
+<div class="search-bar">
+  <input type="text" name="" placeholder="Search here..." value="">
+  <button type="button" name="button" ><i class="fa-solid fa-magnifying-glass icon"></i></button>
+</div>
+<!-- <input type="text" name="" value=""> -->
+</div>
+  </div>
+  <div class="footer-end">
+   <div class="end-content">
+   <div class="div-1">
+     <a href="#">Privacy policy</a>
+     <a href="#">Terms of use</a>
+   </div>
+   <div class="div-2">
+     <p>©2022 Turning Tide</p>
+     <p><i style="color:grey" class="fa-solid fa-lock"></i>Secured with Paytm</p>
+   </div>
+   <div class="div-3">
+     <p>TURNING TIDE is a 501(c)3 Non-Profit Organization</p>
+
+   </div>
+   </div>
+  </div>
+</footer>
+</html>

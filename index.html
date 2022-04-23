@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Turning Tide</title>
+
+  <link rel="stylesheet" href="animation.css">
+  <link rel="stylesheet" href="styles.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Lavishly+Yours&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital@1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/ade484b3fc.js" crossorigin="anonymous"></script>
+</head>
+
+<body onscroll="scrolled()">
+
+
+  <div class="hotbar">
+    <a href="index.html">
+      <section class="hotbar-brand">Turning Tide</section>
+    </a>
+    <a class="hotbar-item" href="#about-us">ABOUT US</a>
+    <a class="hotbar-item" href="#our-impact">OUR IMPACT</a>
+    <a class="hotbar-item" href="#our-work-id">OUR WORK</a>
+    <a class="hotbar-item" href="#subscribe-id">SUBSCRIBE</a>
+    <a class="hotbar-item" href="#contact-us-id">CONTACT</a>
+    <a class="hotbar-item" href="#our-work" >PAGES <button type="button" class="pages-btn" onclick="dropdown()" name="button" style="background-color: transparent; border:none;color:white;"><i class="fa-solid fa-caret-down"></i></button>
+      </button></a>
+    <button class="donate" type="button" name="button" style="margin-left:35px;">
+      <p class="donate">DONATE</p>
+    </button>
+    <div class="pages-list hide">
+      <a href="calender.html" class="page-list-item"><i class="fa-solid fa-calendar-days"></i>CALENDAR</a>
+      <a href="events.html" class="page-list-item"><i class="fa-solid fa-water"></i>EVENTS</a>
+      <a href="team.html" class="page-list-item"><i class="fa-solid fa-sitemap"></i>TEAM</a>
+      <a href="board.html" class="page-list-item"><i class="fa-solid fa-sitemap"></i>BOARD OF DIRECTORS</a>
+      <a href="#" class="page-list-item"><i class="fa-solid fa-sitemap"></i>BLOG</a>
+      <a href="#" class="page-list-item"><i class="fa-solid fa-sitemap"></i>404</a>
+    </div>
+  </div>
+  <!-- <div class="top-div">
+  <div class="landing-div">
+  <video src="ocean.mp4"class="main-vid" autoplay loop muted></video>
+  </div>
+  <div class="content">
+  <h1 class="main-h1">The    Ocean    needs    your help</h1>
+  </div>
+
+</div> -->
+
+
+  <section class="showcase">
+    <div class="landing-div">
+      <video src="ocean_new.mp4" id="bg-vid" class="main-vid" autoplay loop muted></video>
+    </div>
+
+    <div class="content">
+      <h1 class="main-h1">The Ocean needs your help</h1>
+    </div>
+  </section>
+  </div>
+  <div class="donation">
+    <div class="donation-1">
+      <h3 class="don-h3">Help whales in crisis now</h3>
+      <h4 class="don-h4">April's oil spill means whales needs your help now more than ever. Help protect our future and our earth by making a donation today.</h4>
+      <div class="border" style="margin-bottom:30px;">
+        <div class="filled">
+        </div>
+        <div class="empty"></div>
+      </div>
+
+      <a href="#">
+        <P class="don-learn-more" style="color: #5d928e;">Learn More <section style="display:inline; font-weight:400;color:#4eb6ae; margin-left:10px; opacity:0.6"> <i style="margin-top:10px;" class="fa-solid fa-arrow-right transition-arrow"></i>
+          </section> </i></P>
+      </a>
+    </div>
+    <div class="donation-2">
+      <input class="amount-input" type="text" name="" placeholder="₹500" value="">
+      <button class="donate-now" type="button" name="button">
+        <p class="donate-now-txt">DONATE NOW</p>
+      </button>
+      <p style="color:#fd6938; font-weight:200;"><i class="fa-solid fa-heart"></i>Give in honour of someone</p>
+    </div>
+  </div>
+
+
+  <!-- about us -->
+  <div id="about-us">
+    <h2 style="font-weight:700;font-family: 'Work Sans';">We are an international animal rights organisation</h2>
+    <h3 class="about-h3">Our purpose is to prevent the extinction of our most at-risk animals and increase their numbers.<section>Our programs and projects are designed to support the foundations of a thriving Ocean.</section>
+    </h3>
+    <button class="learn-more" type="button" name="button">
+      <p class="learn-more-btn-p">LEARN MORE</p>
+    </button>
+
+
+    <!-- Our Impact  -->
+
+    <div id="our-impact">
+      <div class="impact">
+        <h2 class="about-h2">Our impact</h2>
+        <h3 class="about-h3">Since 2000, our efforts to have led to remarkable results:</h3>
+      </div>
+      <div class="impact-data">
+        <div class="plastic">
+          <h1 class="data-h1">200 Million</h1>
+          <h5 class="h5-data">Pieces plastic debris removed</h5>
+          <a href="#">
+  <P class="don-learn-more">Learn More <i class="fa-solid fa-sm fa-arrow-right transition-arrow"></i>          </a>
+        </div>
+        <div class="marine">
+          <h1 class="data-h1">425,000 animals</h1>
+          <h5 class="h5-data">Marine animals saved</h5>
+          <a href="#">
+  <P class="don-learn-more">Learn More <i class="fa-solid fa-sm fa-arrow-right transition-arrow"></i>          </a>
+        </div>
+        <div class="raised">
+          <h1 class="data-h1">$23.769 billion</h1>
+          <h5 class="h5-data">Raised to support the ocean</h5>
+          <P class="don-learn-more">Learn More <i class="fa-solid fa-sm fa-arrow-right transition-arrow"></i>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Our Work -->
+
+      <div class="our-work" id="our-work-id">
+        <div class="main-work">
+
+          <h1>Our Work</h1>
+          <h3>We're tackling the most pressing marine life issues</h3>
+        </div>
+        <div class="parent">
+
+          <div class="child nets">
+            <a href="https://www.hackerrank.com/dashboard"><img src="https://images.pexels.com/photos/7001564/pexels-photo-7001564.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="turtle-img"><i class="fa-solid fa-plus"></i>
+              <p class="content">LED nets</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="parent penguin">
+
+          <div class="child">
+            <a href="https://www.hackerrank.com/dashboard"><img src="https://www.pixelstalk.net/wp-content/uploads/2016/06/Penguin-Picture-HD.jpg" alt="turtle-img"><i class="fa-solid fa-plus"></i>
+              <p class="content">Arctic Nations</p>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="parent reefs">
+
+          <div class="child">
+            <a href="https://www.hackerrank.com/dashboard"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Nt-HKcl2mVK9ROasOgAhZdfSzFdIVwu3gw&usqp=CAU" alt="turtle-img"><i class="fa-solid fa-plus"></i>
+              <p class="content">The Great reefs</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="our-work">
+
+        <div class="parent">
+        <div class="child nets">
+          <a href="https://www.hackerrank.com/dashboard"><img src="https://www.cmaquarium.org/app/uploads/2021/06/2021.04-Nick-Underwater-0001-768x512.jpg" alt="turtle-img"><i class="fa-solid fa-plus"></i>
+            <p class="content">World Summit</p>
+          </a>
+        </div>
+        </div>
+
+        <div class="parent penguin">
+
+          <div class="child">
+            <a href="https://www.hackerrank.com/dashboard"><img src="https://images.unsplash.com/flagged/photo-1561023368-a605b6849234?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="turtle-img"><i class="fa-solid fa-plus"></i>
+              <p class="content">Beach Cleanup</p>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="parent reefs">
+
+          <div class="child">
+            <a href="https://www.hackerrank.com/dashboard"><img src="https://images.pexels.com/photos/2832643/pexels-photo-2832643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="turtle-img"><i class="fa-solid fa-plus"></i>
+              <p class="content">Ocean Policy</p>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="parent reefs">
+
+          <div class="child">
+            <a href="https://www.hackerrank.com/dashboard"><img src="https://upload.wikimedia.org/wikipedia/commons/7/74/California_sea_lion_in_La_Jolla_%2870568%29.jpg" alt="turtle-img"><i class="fa-solid fa-plus"></i>
+              <p class="content">Adopt a seal</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- SUBSCRIBE PAGE -->
+
+            <div id="subscribe-id" class="subscribe" style="text-align:center">
+
+              <h1 class="subscribe-h1">Subscribe to our Newsletter</h1>
+              <h2 style="font-size:25px;">Stay in the loop! Sign up and receive the latest updates on our work.</h2>
+              <div class="input-div">
+                <input type="email" name="" placeholder="Enter your email" value="">
+                <button type="button" class="subscribe-text" onclick="subscribed()" name="button">
+                  <p style="font-family: 'Work Sans'; color:#ffff; font-size:16px;">SUBSCRIBE</p>
+                </button>
+              </div>
+            </div>
+<!-- contact us -->
+      <div id="contact-us-id" class="contact-us">
+        <h2>Contact Us</h2>
+        <h3>Get in touch with us directly by using the contact form below</h3>
+        <div class="contact-child">
+          <div class="contact-info">
+            <input type="text" placeholder="Your Name*" name="" value="">
+            <input type="text" placeholder="Your Email*" name="" value="">
+            <input type="text" placeholder="Your Phone*"="" value="">
+          </div>
+          <div class="message">
+            <textarea name="name" placeholder="Your Message" rows="8" cols="80"></textarea>
+          </div>
+        </div>
+      <button class="btn-msg-click" type="submit" name="button" onclick="msgBtn()"><p class="send-msg">SEND MESSAGE</p></button>
+      </div>
+
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+<footer>
+  <div class="footer-main">
+<div class="foot-details">
+  <p>The Turning Tide, a non-profit organization, is developing and scaling technologies to rid the world’s oceans of plastic. Our aim is to put ourselves out of business once the oceans are clean.</p>
+</div>
+<div class="foot-address">
+ <p>Turning Tide, international</p>
+ <p>PO box 73292,Phagwara, PGW 144411</p>
+<p>Phone +91 6942069420</p>
+ <p>Contact Us</p>
+</div>
+
+<div class="foot-Locations">
+    <a href="#" class="midwest"> <i class="fa-solid fa-tree"></i> Midwest</a>
+  <a href="#"><i class="fa-solid fa-building-ngo"></i>Greater Los Angeles</a>
+  <a href="#"><i class="fa-solid fa-map-location-dot"></i>San Jose / Bay Area</a>
+  <a href="#"><i class="fa-solid fa-umbrella-beach"></i>Tarkarli Maharashtra</a>
+
+  <a href="#"><i class="fa-solid fa-umbrella-beach"></i>Mandrem North Goa</a>
+</div>
+
+<div class="foot-connect">
+  <div class="icons" >
+<a  href="#https://www.linkedin.com/in/saurabhkumarrai/"  style="left:100px;"><i  style="right:200px;" class="fa-brands fa-linkedin-in"></i></a>
+<a href="#https://www.instagram.com/unknown_saurabh/"><i class="fa-brands fa-instagram"></i></a>
+<a href="https://t.me/Unknown_saurabh"><i class="fa-brands fa-telegram"></i></a>
+<a href="#https://github.com/srai86825"><i class="fa-brands fa-github"></i></a>
+  </div>
+<div class="search-bar">
+  <input type="text" name="" placeholder="Search here..." value="">
+  <button type="button" name="button" ><i class="fa-solid fa-magnifying-glass icon"></i></button>
+</div>
+<!-- <input type="text" name="" value=""> -->
+</div>
+  </div>
+  <div class="footer-end">
+   <div class="end-content">
+   <div class="div-1">
+     <a href="#">Privacy policy</a>
+     <a href="#">Terms of use</a>
+   </div>
+   <div class="div-2">
+     <p>©2022 Turning Tide</p>
+     <p><i style="color:grey" class="fa-solid fa-lock"></i>Secured with Paytm</p>
+   </div>
+   <div class="div-3">
+     <p>TURNING TIDE is a 501(c)3 Non-Profit Organization</p>
+
+   </div>
+   </div>
+  </div>
+</footer>
+
+</html>

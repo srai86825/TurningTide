@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EVENTS CALENDER</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    body {
+      background-color: linen;
+    }
+
+    h1 {
+      color: maroon;
+      margin-left: 40px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="events-cal">
+      <h1>Events Calendar</h1>
+    </div>
+  </body>
+</html>
